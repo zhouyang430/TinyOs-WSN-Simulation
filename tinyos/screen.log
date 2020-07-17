@@ -1,0 +1,42 @@
+Script started on 2020年06月28日 星期日 20时57分44秒
+Setting up for TinyOS 2.1.2
+]0;root@kangkai-virtual-machine: /opt/tinyos-2.1.2/apps/RadioCountToLedsroot@kangkai-virtual-machine:/opt/tinyos-2.1.2/apps/RadioCountToLeds# exitpython testt.py
+  1   2   -54.0
+  2   1   -55.0
+  1   3   -60.0
+  3   1   -60.0
+  2   3   -64.0
+  3   2   -64.0
+Creating noise model for  1
+Creating noise model for  2
+Creating noise model for  3
+DEBUG (1): application booted.
+DEBUG (2): application booted.
+DEBUG (3): application booted.
+DEBUG (1): RadioCountToLedsC: timer fired, counter is 1.
+DEBUG (1): RadioCountToLedsC: packet is successfully sent from node 1.
+DEBUG (2): RadioCountToLedsC: timer fired, counter is 1.
+DEBUG (2): RadioCountToLedsC: packet is successfully sent from node 2.
+DEBUG (3): RadioCountToLedsC: timer fired, counter is 1.
+DEBUG (3): RadioCountToLedsC: packet is successfully sent from node 3.
+DEBUG (3): node 3 receives packet from node 2, send time is 250, receive time is 258.
+DEBUG (1): node 1 receives packet from node 2, send time is 250, receive time is 258.
+DEBUG (3): node 3 receives packet from node 1, send time is 250, receive time is 259.
+DEBUG (2): node 2 receives packet from node 1, send time is 250, receive time is 259.
+DEBUG (2): node 2 receives packet from node 3, send time is 250, receive time is 260.
+DEBUG (1): node 1 receives packet from node 3, send time is 250, receive time is 261.
+DEBUG (1): RadioCountToLedsC: timer fired, counter is 2.
+DEBUG (1): RadioCountToLedsC: packet is successfully sent from node 1.
+DEBUG (2): RadioCountToLedsC: timer fired, counter is 2.
+DEBUG (2): RadioCountToLedsC: packet is successfully sent from node 2.
+DEBUG (3): RadioCountToLedsC: timer fired, counter is 2.
+DEBUG (3): RadioCountToLedsC: packet is successfully sent from node 3.
+DEBUG (1): node 1 receives packet from node 2, send time is 500, receive time is 504.
+DEBUG (2): node 2 receives packet from node 3, send time is 500, receive time is 506.
+DEBUG (1): node 1 receives packet from node 3, send time is 500, receive time is 506.
+DEBUG (3): node 3 receives packet from node 1, send time is 500, receive time is 509.
+DEBUG (2): node 2 receives packet from node 1, send time is 500, receive time is 509.
+]0;root@kangkai-virtual-machine: /opt/tinyos-2.1.2/apps/RadioCountToLedsroot@kangkai-virtual-machine:/opt/tinyos-2.1.2/apps/RadioCountToLeds# exit
+exit
+
+Script done on 2020年06月28日 星期日 20时58分03秒
